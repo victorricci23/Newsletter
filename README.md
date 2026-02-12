@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://your-username.github.io/join-our-newsletter">
+    <a href="https://victorricci23.github.io/Newsletter/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/your-username/join-our-newsletter">
+    <a href="https://victorricci23.github.io/Newsletter/">
       Solution
     </a>
     <span> | </span>
