@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is an example of newsletter" />
+    
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Join Our Newsletter | devChallenges.io</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        background-color: #F9FAFB;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .intro {
+        flex-direction: column; 
+        display: flex;
+      }
+
+      .intro img {
+        width: 50px;
+        margin: 1rem auto;
+        margin-top: 3rem;
+      }
+
+      .intro h1 {
+        text-align: center;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+        color: #000000;
+
+      }
+
+      .intro p {
+        text-align: center;
+        color: #6C727F;
+        margin-bottom: 2rem;
+      }
+
+      .card {
+        width: 450px;
+        margin: 164px auto 140px;
+        margin-top: 1rem;
+        background: #FFFFFF;
+        box-shadow: 8px 8px 20px #E5E7EB;
+        border-radius: 12px;
+        align-items: center;
+        overflow: hidden; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+      }
+
+      .card input {
+        width: 415px;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+        border-radius: 12px;
+        border-width: 1px;
+        border: none;
+        outline: none;
+        border: 2px solid #E5E7EB;
+        background-color: #F9FAFB;
+        text-align: center;
+      }
+
+      .card input::placeholder {
+        color: #394150;
+        opacity: 1;
+      }
+      
+      .card button {
+        width: 415px;
+        margin: 0.5rem;
+        padding: 1rem;
+        border-radius: 12px;
+        border-width: 1px;
+        border: none;
+        outline: none;
+        border: 2px solid #E5E7EB;
+        background-color: #284BCE;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      .card p {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        color: #6C727F;
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      @media (min-width: 412px) {
+        .card  {
+          width: 360px;          
+        }
+
+        .input {
+          width: 415px;
+          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+          padding: 1rem;
+        }
+
+        .card input {
+          width: 325px;
+        }
+
+        .card button {
+          width: 325px;
+        }
+
+        body {
+          margin: 1.5rem;
+          height: 90vh;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .intro {
+          margin-top: 15rem;
+        }
+
+        .intro img {
+          width: 80px;
+        }
+
+        .intro h1 {
+          margin-top: 0.5rem;
+          margin-bottom: 1.5rem;
+          font-size: 3rem;
+        }
+
+        .intro p {
+          font-size: 1.3rem;
+        }
+
+        .card {
+          width: 600px;
+        }
+
+        .card input {
+          width: 528px;
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+          padding: 1.5rem;
+        }
+
+        .card input::placeholder {
+          font-size: 1rem;
+        }
+
+        .card button {
+          width: 528px;
+          margin: 1rem;
+          padding: 1.5rem;
+          font-size: 1rem;
+        }
+        .card p {
+          text-align: center;
+          font-size: 10px;
+          margin-top: 0.5rem;
+          margin-bottom: 2rem;
+          font-size: 15px;
+        }
+
+        .author-info {
+          font-size: 20px;
+          margin-top: 300px;
+        }
+
+        body {
+          margin: 5rem;
+          height: 75vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intro">
+      <img src="/CHALLENGES/NEWSLETTER/join-our-newsletter-master/resources/logo.svg" alt="Page logo">
+      <h1>Join our newsletter</h1>
+      <p>
+        Keep up with our latest collections, exclusive deals, and special offers!<br>
+        We introduce a new collection every week, so stay tuned to snag the<br>
+        hottest items just for you.
+      </p>
+    </div>
+    <form class="card" action="/registration" method="POST" >
+      <input
+        type="email" 
+        placeholder="Enter your email eddress" 
+        required 
+      />
+      <button type="submit">Subscribe now</button>
+      <p>Your email is 100% confidential and won’t send you any spam.</p>
+    </form>
+
+    <div class="author-info">
+      Coded by <a href="#">Victor C. Ricci</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
