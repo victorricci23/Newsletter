@@ -37,7 +37,7 @@
 ## Overview
 
 <!-- You can replace this with a real screenshot of your finished project -->
-![screenshot](https://media.discordapp.net/attachments/1464634656463786118/1471320535823552623/Screenshot_2026-02-11_at_22-41-11_Join_Our_Newsletter_devChallenges.io.png?ex=698e8187&is=698d3007&hm=7cd3290d7d0a95a5f85ebc76dc0e032e4ee9ae38c9eff4deff400d965c7f6c73&=&format=webp&quality=lossless&width=894&height=562)
+![screenshot](thumbnail.jpg)
 
 A clean and responsive "Join Our Newsletter" landing page with a centered card layout, modern typography and mobile-first approach.
 
